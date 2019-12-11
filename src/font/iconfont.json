@@ -69,6 +69,16 @@
       "unicode_decimal": 58900
     },
     {
+<<<<<<< HEAD
+=======
+      "icon_id": "3616908",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+>>>>>>> wwt
       "icon_id": "3977710",
       "name": "退换修",
       "font_class": "tuihuanxiu",

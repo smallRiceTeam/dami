@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author: your name
+ * @Date: 2019-11-26 13:32:06
+ * @LastEditTime: 2019-12-10 19:35:07
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \newxmsc\build\webpack.base.conf.js
+ */
+>>>>>>> wwt
 'use strict'
 const path = require('path')
 const utils = require('./utils')
@@ -25,7 +36,10 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
+<<<<<<< HEAD
       'vue$': 'vue/dist/vue.esm.js',
+=======
+>>>>>>> wwt
       '@': resolve('src'),
     }
   },
@@ -65,7 +79,14 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       },
+<<<<<<< HEAD
       {test: /\.scss$/,loaders: ["style","css","sass"]}
+=======
+      {
+        test: /\.scss$/,                     
+        loaders: ["style", "css", "sass"]                     
+      }   
+>>>>>>> wwt
     ]
   },
   node: {

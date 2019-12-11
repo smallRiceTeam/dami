@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
  * @Author: yx
  * @Date: 2019-11-26 19:13:22
  * @LastEditors: yx
@@ -9,10 +10,22 @@
 import Vue from 'vue'
 import VueX from 'vueX'
 import axios from 'axios';
+=======
+ * @Author: your name
+ * @Date: 2019-12-04 17:22:56
+ * @LastEditTime: 2019-12-04 20:58:06
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \newxmsc\src\store\index.js
+ */
+import Vue from 'vue'
+import VueX from 'vuex'
+>>>>>>> wwt
 
 Vue.use(VueX)
 
 export default new VueX.Store({
+<<<<<<< HEAD
     state: {//存储数据
         footerCls: [
             true,
@@ -74,4 +87,9 @@ export default new VueX.Store({
             })
         }
     }
+=======
+    state: {
+        age:12,
+    },
+>>>>>>> wwt
 })
