@@ -1,4 +1,4 @@
-# newxmsc
+# xiaomi
 
 > A Vue.js project
 
